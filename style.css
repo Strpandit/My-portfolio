@@ -91,7 +91,7 @@
 }
 @keyframes load4 {
     0%{width: 0;}
-    100%{width: 75%;}
+    100%{width: 70%;}
 }
 .value5{
     animation: load5 3s normal forwards;
@@ -113,11 +113,18 @@
 }
 @keyframes load6 {
     0%{width: 0;}
-    100%{width: 75%;}
+    100%{width: 70%;}
+}
+.value6{
+    animation: load4 3s normal forwards;
+    border-radius: 50px;
+    height: 30px;
+    width: 0;
+    background-color: green;
 }
 @keyframes load7 {
     0%{width: 0;}
-    100%{width: 75%;}
+    100%{width: 70%;}
 }
 .value7{
     animation: load4 3s normal forwards;
